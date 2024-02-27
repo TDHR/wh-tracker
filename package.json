@@ -1,6 +1,6 @@
 {
   "name": "wh-tracker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -9,8 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --bundleConfigAsCjs"
   },
-  "keywords": ["前端"],
-  "files": ["dist"],
+  "keywords": [
+    "前端"
+  ],
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
