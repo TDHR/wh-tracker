@@ -1,0 +1,22 @@
+{
+  "name": "wh-tracker",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "keywords": ["前端"],
+  "files": ["dist"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.18.0",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  }
+}
